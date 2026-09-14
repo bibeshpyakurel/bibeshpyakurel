@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Bibesh Pyakurel — Software, Data and Applied AI">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8ad2ff"/>
+      <stop offset="55%" stop-color="#b9e4ff"/>
+      <stop offset="100%" stop-color="#79f7da"/>
+    </linearGradient>
+    <radialGradient id="blobBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8ad2ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8ad2ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobMint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#79f7da" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#79f7da" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#ecf0f7" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#0f1115"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+
+    <g filter="url(#soft)">
+      <circle cx="980" cy="70" r="200" fill="url(#blobBlue)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -60 40; 0 0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="160" cy="330" r="190" fill="url(#blobMint)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 70 -50; 0 0" dur="17s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="22" fill="none" stroke="#8ad2ff" stroke-opacity="0.22"/>
+
+    <!-- window chrome -->
+    <g transform="translate(40 36)">
+      <circle cx="8" cy="8" r="6" fill="#ff5f57"/>
+      <circle cx="30" cy="8" r="6" fill="#febc2e"/>
+      <circle cx="52" cy="8" r="6" fill="#28c840"/>
+      <text x="76" y="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b95a7">~/bibeshpyakurel</text>
+    </g>
+
+    <!-- prompt line -->
+    <text x="40" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#79f7da">$ <tspan fill="#8b95a7">whoami</tspan></text>
+
+    <!-- name -->
+    <text x="40" y="188" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="url(#nameGrad)">Bibesh Pyakurel</text>
+
+    <!-- rotating tagline -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#ecf0f7">
+      <text x="40" y="236" opacity="0">Software · Data · Applied AI engineer
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.03;0.22;0.25;0.5;0.75;0.9;0.95;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="40" y="236" opacity="0">Research Lead · Computer Vision &amp; Multimodal LLMs
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.25;0.28;0.47;0.5;0.75;0.9;0.95;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="40" y="236" opacity="0">First author · SLAPBench (arXiv:2607.15517)
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.25;0.47;0.5;0.53;0.72;0.75;0.95;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="40" y="236" opacity="0">Poet at heart · author of यथार्थ (Reality, 2020)
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.25;0.47;0.5;0.72;0.75;0.78;0.97;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <rect x="40" y="252" width="11" height="3" fill="#79f7da">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- tags -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" transform="translate(40 286)">
+      <rect x="0" y="0" width="118" height="28" rx="14" fill="#8ad2ff" fill-opacity="0.12" stroke="#8ad2ff" stroke-opacity="0.45"/>
+      <text x="59" y="18" text-anchor="middle" fill="#8ad2ff">Spring Boot</text>
+      <rect x="128" y="0" width="80" height="28" rx="14" fill="#8ad2ff" fill-opacity="0.12" stroke="#8ad2ff" stroke-opacity="0.45"/>
+      <text x="168" y="18" text-anchor="middle" fill="#8ad2ff">.NET 9</text>
+      <rect x="218" y="0" width="90" height="28" rx="14" fill="#8ad2ff" fill-opacity="0.12" stroke="#8ad2ff" stroke-opacity="0.45"/>
+      <text x="263" y="18" text-anchor="middle" fill="#8ad2ff">Next.js</text>
+      <rect x="318" y="0" width="110" height="28" rx="14" fill="#79f7da" fill-opacity="0.12" stroke="#79f7da" stroke-opacity="0.45"/>
+      <text x="373" y="18" text-anchor="middle" fill="#79f7da">PostgreSQL</text>
+      <rect x="438" y="0" width="80" height="28" rx="14" fill="#79f7da" fill-opacity="0.12" stroke="#79f7da" stroke-opacity="0.45"/>
+      <text x="478" y="18" text-anchor="middle" fill="#79f7da">Azure</text>
+      <rect x="528" y="0" width="94" height="28" rx="14" fill="#79f7da" fill-opacity="0.12" stroke="#79f7da" stroke-opacity="0.45"/>
+      <text x="575" y="18" text-anchor="middle" fill="#79f7da">PyTorch</text>
+      <rect x="632" y="0" width="118" height="28" rx="14" fill="#79f7da" fill-opacity="0.12" stroke="#79f7da" stroke-opacity="0.45"/>
+      <text x="691" y="18" text-anchor="middle" fill="#79f7da">Detectron2</text>
+    </g>
+
+    <!-- right-side stat block -->
+    <g transform="translate(860 108)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <rect x="0" y="0" width="300" height="176" rx="16" fill="#161a21" fill-opacity="0.85" stroke="#8ad2ff" stroke-opacity="0.25"/>
+      <text x="20" y="34" font-size="12" fill="#8b95a7" letter-spacing="1.5">SNAPSHOT</text>
+
+      <text x="20" y="66" font-size="13" fill="#8b95a7">papers on arXiv</text>
+      <text x="280" y="66" font-size="16" font-weight="700" text-anchor="end" fill="#79f7da">2</text>
+
+      <text x="20" y="96" font-size="13" fill="#8b95a7">industry internships</text>
+      <text x="280" y="96" font-size="16" font-weight="700" text-anchor="end" fill="#8ad2ff">5</text>
+
+      <text x="20" y="126" font-size="13" fill="#8b95a7">SLAPBench pairs</text>
+      <text x="280" y="126" font-size="16" font-weight="700" text-anchor="end" fill="#79f7da">7,832</text>
+
+      <text x="20" y="156" font-size="13" fill="#8b95a7">best crack F1</text>
+      <text x="280" y="156" font-size="16" font-weight="700" text-anchor="end" fill="#8ad2ff">87.04%</text>
+    </g>
+  </g>
+</svg>
