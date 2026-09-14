@@ -4,11 +4,11 @@
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-bibesh.digital-8ad2ff?style=for-the-badge&logo=googlechrome&logoColor=0f1115&labelColor=161a21)](https://bibesh.digital/)
+[![Industry Portfolio](https://img.shields.io/badge/Industry_Portfolio-bibeshpyakurel.github.io-8ad2ff?style=for-the-badge&logo=googlechrome&logoColor=0f1115&labelColor=161a21)](https://bibeshpyakurel.github.io/BP_Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bibeshpyakurel-8ad2ff?style=for-the-badge&logo=linkedin&logoColor=0f1115&labelColor=161a21)](https://www.linkedin.com/in/bibeshpyakurel/)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-79f7da?style=for-the-badge&logo=googlescholar&logoColor=0f1115&labelColor=161a21)](https://scholar.google.com/citations?user=Kea7cmgAAAAJ&hl=en)
 [![Semantic Scholar](https://img.shields.io/badge/Semantic_Scholar-Author-79f7da?style=for-the-badge&logo=semanticscholar&logoColor=0f1115&labelColor=161a21)](https://www.semanticscholar.org/author/Bibesh-Pyakurel/2438713157)
-[![Research](https://img.shields.io/badge/Research-page-ecf0f7?style=for-the-badge&logo=arxiv&logoColor=0f1115&labelColor=161a21)](https://bibeshpyakurel.github.io/BP_Portfolio/research.html)
+[![Research Portfolio](https://img.shields.io/badge/Research_Portfolio-page-ecf0f7?style=for-the-badge&logo=arxiv&logoColor=0f1115&labelColor=161a21)](https://bibeshpyakurel.github.io/BP_Portfolio/research.html)
 
 </div>
 
@@ -47,6 +47,7 @@ Computer Science graduate from the University of Wisconsin–Green Bay with five
 | [**Trainlytics**](https://github.com/bibeshpyakurel/Trainlytics) · [live](https://trainlytics-two.vercel.app/login/) | Next.js · TypeScript · Supabase · PostgreSQL RLS · OpenAI API · GitHub Actions | Fitness analytics platform with per-user isolation enforced by row-level security, AI insight layer, and CI that validates lint, types, tests, and DB plans. |
 | [**JobInsight**](https://github.com/bibeshpyakurel/JobInsight) | Chrome MV3 · Node.js · Express · Google OAuth · OpenAI API | Extension that reads LinkedIn job postings in real time and extracts sponsorship, citizenship, and level signals. Backend proxy keeps keys server-side with a 7-day cache. |
 | [**Music Emotion Predictor**](https://github.com/bibeshpyakurel/Music-Emotion-Predictor) | Python · Scikit-learn · PCA · Matplotlib | Classifies 278K+ songs into Calm / Sad / Energetic / Happy with Decision Tree, KNN, and K-Means. Evaluated with accuracy and Adjusted Rand Index. |
+| [**Resume–Job Description Matcher**](https://github.com/bibeshpyakurel/Resume-Job-Description-Matching-System) | Python · scikit-learn · NLTK · PyPDF2 | Extracts and cleans text from PDF resumes, scores them against a job description with keyword matching and cosine similarity, and batch-ranks candidates. |
 | [**script-viewer**](https://github.com/bibeshpyakurel/script-viewer) | TypeScript · Vite | Parses call-center script XML into JSON and renders it for review while preserving every element, attribute, namespace, and sibling order. |
 
 <br>
