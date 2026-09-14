@@ -26,7 +26,9 @@ jobs:
       - name: Generate metrics card
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Add a METRICS_TOKEN repo secret (classic PAT, scopes: public_repo, read:user)
+          # so the card can see all your repositories and languages.
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           filename: metrics.svg
           output_action: none
