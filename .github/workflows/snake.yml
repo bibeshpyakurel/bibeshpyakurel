@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile graphics
 
 on:
   schedule:
@@ -13,7 +13,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
@@ -22,6 +22,37 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-light
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=8ad2ff
+
+      - name: Generate metrics card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics.svg
+          output_action: none
+          template: classic
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_timezone: America/Chicago
+          config_animations: no
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css, jupyter notebook, tex, scss
+          plugin_languages_sections: most-used
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_lines: yes
+          extras_css: |
+            svg { background: #0f1115 !important; color: #c9d1de !important; }
+            h1, h2, h3 { color: #8ad2ff !important; }
+            .field svg { fill: #8b95a7 !important; }
+            .divider { background-color: #1f2530 !important; }
+            #metrics-end { color: #8b95a7 !important; }
+
+      - name: Collect outputs
+        run: |
+          sudo mv /metrics_renders/metrics.svg dist/metrics.svg
+          ls -la dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

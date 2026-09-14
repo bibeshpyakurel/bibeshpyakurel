@@ -21,9 +21,9 @@ I build systems that connect **software, data, and applied AI**: production-orie
 Computer Science graduate from the University of Wisconsin–Green Bay with five industry internships (Schneider, Brown County, Faith Technologies, WiSys, UWGB) and two arXiv preprints. I care about *why* a system exists as much as *how* it works.
 
 ```text
-🔬  Research Lead @ UW–Green Bay   →  multimodal LLM evaluation, instance segmentation, fairness
-🛠️  Building                       →  multi-tenant backends with database-enforced isolation
-✍️  Off the keyboard               →  poet, author of यथार्थ (Reality, 2020), community builder
+🔬 Research Lead @ UW–Green Bay  ·  multimodal LLM eval, segmentation, fairness
+🛠️ Building                      ·  multi-tenant backends, DB-enforced isolation
+✍️ Off the keyboard              ·  poet, author of यथार्थ (2020), community builder
 ```
 
 <br>
@@ -40,17 +40,6 @@ Computer Science graduate from the University of Wisconsin–Green Bay with five
 <br>
 
 ## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/bibeshpyakurel/SLAPBench"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=SLAPBench&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="SLAPBench" width="49%"></a>
-<a href="https://github.com/bibeshpyakurel/ClearERP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=ClearERP&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="ClearERP" width="49%"></a>
-<a href="https://github.com/bibeshpyakurel/Trainlytics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=Trainlytics&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="Trainlytics" width="49%"></a>
-<a href="https://github.com/bibeshpyakurel/JobInsight"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=JobInsight&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="JobInsight" width="49%"></a>
-<a href="https://github.com/bibeshpyakurel/Music-Emotion-Predictor"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=Music-Emotion-Predictor&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="Music Emotion Predictor" width="49%"></a>
-<a href="https://github.com/bibeshpyakurel/script-viewer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bibeshpyakurel&repo=script-viewer&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da" alt="script-viewer" width="49%"></a>
-
-</div>
 
 | Project | Stack | Highlights |
 |:--|:--|:--|
@@ -128,18 +117,17 @@ Computer Science graduate from the University of Wisconsin–Green Bay with five
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bibeshpyakurel&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&icon_color=79f7da&rank_icon=github" alt="GitHub stats" width="49%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bibeshpyakurel&layout=compact&langs_count=8&hide_border=true&bg_color=0f1115&title_color=8ad2ff&text_color=ecf0f7&hide=jupyter%20notebook,html,css" alt="Top languages" width="49%">
+<img src="https://raw.githubusercontent.com/bibeshpyakurel/bibeshpyakurel/output/metrics.svg" alt="GitHub metrics: activity, community, repositories, languages, and contribution calendar" width="100%">
 
-<img src="https://streak-stats.demolab.com?user=bibeshpyakurel&hide_border=true&background=0f1115&ring=8ad2ff&fire=79f7da&currStreakLabel=8ad2ff&sideLabels=ecf0f7&currStreakNum=ecf0f7&sideNums=ecf0f7&dates=8b95a7" alt="Contribution streak" width="70%">
-
-<br><br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bibeshpyakurel/bibeshpyakurel/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bibeshpyakurel/bibeshpyakurel/output/github-contribution-grid-snake.svg">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/bibeshpyakurel/bibeshpyakurel/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
+
+<sub>Both graphics are regenerated daily by <a href=".github/workflows/snake.yml">a workflow in this repo</a>, so nothing here depends on a third-party card service.</sub>
 
 </div>
 
@@ -157,8 +145,5 @@ Computer Science graduate from the University of Wisconsin–Green Bay with five
 
 <sub>Trained as a software developer, poet at heart. If you also think exploration is where impact begins, <a href="https://www.linkedin.com/in/bibeshpyakurel/">say hi</a>.</sub>
 
-<br><br>
-
-![Profile views](https://komarev.com/ghpvc/?username=bibeshpyakurel&color=8ad2ff&style=flat-square&label=visitors)
 
 </div>
